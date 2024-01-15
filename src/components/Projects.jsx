@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import mustang from "../assest/images/mustang.jpg";
+import portfolio from "../../src/assest/images/portfolio_img.webp";
 import veg from "../assest/images/veg.jpeg";
 import tiger from "../assest/images/tiger.jpeg";
 import tree from "../assest/images/tree.jpeg";
@@ -10,32 +10,32 @@ const Projects = () => {
   const projectData = [
     {
       id: 0,
-      imagePath: mustang,
-      techStack: "HTMl CSS JavaScript React",
-      title: "Project 1",
-      dec: "Server hosting",
+      imagePath: portfolio,
+      techStack: " Simple Portfolio",
+      title: "Portfolio Building",
+      dec: "HTMl, CSS, JavaScript, React",
     },
-    {
-      id: 1,
-      imagePath: veg,
-      techStack: "HTMl CSS JavaScript React",
-      title: "Project 1",
-      dec: "Server hosting",
-    },
-    {
-      id: 2,
-      imagePath: tiger,
-      techStack: "HTMl CSS JavaScript React",
-      title: "Project 1",
-      dec: "Server hosting",
-    },
-    {
-      id: 3,
-      imagePath: tree,
-      techStack: "HTMl CSS JavaScript React",
-      title: "Project 1",
-      dec: "Server hosting",
-    },
+    // {
+    //   id: 1,
+    //   imagePath: veg,
+    //   techStack: "HTMl CSS JavaScript React",
+    //   title: "Project 1",
+    //   dec: "Server hosting",
+    // },
+    // {
+    //   id: 2,
+    //   imagePath: tiger,
+    //   techStack: "HTMl CSS JavaScript React",
+    //   title: "Project 1",
+    //   dec: "Server hosting",
+    // },
+    // {
+    //   id: 3,
+    //   imagePath: tree,
+    //   techStack: "HTMl CSS JavaScript React",
+    //   title: "Project 1",
+    //   dec: "Server hosting",
+    // },
   ];
   return (
     <div
@@ -45,7 +45,7 @@ const Projects = () => {
       <div className="project-div">
         <div className="flex justify-between items-center mb-[48px] lg:mb-[48px]">
           <div className="projects-header flex justify-start items-center ">
-            <span>#</span>projects{" "}
+            <span>#</span>Projects{" "}
             <svg
               className="ml-[16px] lg:block hidden"
               xmlns="http://www.w3.org/2000/svg"

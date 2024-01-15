@@ -9,9 +9,6 @@
   scroll-padding: 120px;
 }
 
-
-
-
 .nav-bar {
   padding: 0px 16px;
   display: flex;
@@ -277,7 +274,7 @@
   align-items: center;
 }
 .about-text {
-  color: #abb2bf;
+  color: #f0f2f6;
   font-family: "Fira Code", monospace;
   font-size: 16px;
   font-weight: 400;
@@ -422,7 +419,7 @@
 .media-text {
   color: #fff;
   font-family: "Fira Code", monospace;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 12px;
   margin-left: 6px;
@@ -727,7 +724,7 @@
     align-items: center;
   }
   .about-text {
-    color: #abb2bf;
+    color: #f0f2f6;
     font-family: "Fira Code", monospace;
     font-size: 14px;
     font-weight: 400;
@@ -873,7 +870,7 @@
   .media-text {
     color: #fff;
     font-family: "Fira Code", monospace;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 12px;
     margin-left: 6px;
@@ -1089,7 +1086,7 @@
   }
   .project_image {
     width: 100%;
-    height: 201px;
+    height: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1102,7 +1099,7 @@
   }
   .project-box:hover .project_image {
     filter: grayscale(0);
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   .tech-stack-text {
     color: #abb2bf;
@@ -1188,25 +1185,25 @@
     transition: 400ms ease;
   }
   .svgs-box:hover .logo-div0 svg path {
-    fill: #dd512a;
+    fill: #ffff00;
   }
   .svgs-box:hover .logo-div1 svg path {
-    fill: #1172b8;
+    fill: #dd512a;
   }
   .svgs-box:hover .logo-div2 svg path {
     fill: #f7df1e;
   }
   .svgs-box:hover .logo-div3 svg path {
-    fill: #53c1de;
+    fill: #3333ff;
   }
   .svgs-box:hover .logo-div4 svg path {
-    fill: #764abc;
+    fill: #53c1de;
   }
   .svgs-box:hover .logo-div5 svg path {
     fill: #ee513b;
   }
   .svgs-box:hover .logo-div6 svg path {
-    fill: #3178c6;
+    fill: #1172b8;
   }
   .svgs-box:hover .logo-div7 svg path {
     fill: rgb(255, 255, 255);
@@ -1225,7 +1222,7 @@
     align-items: center;
   }
   .about-text {
-    color: #abb2bf;
+    color: #f0f2f6;
     font-family: "Fira Code", monospace;
     font-size: 16px;
     font-weight: 400;

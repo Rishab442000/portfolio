@@ -9,15 +9,16 @@ const HeroSection = () => {
             I'm Rishab <span>Software Developer</span>
           </p>
           <p className="hero-sub-text">
-            Passionate software developer with a good foundation in coding and strong problem-solving skills.
+            Passionate software developer with a good foundation in coding and
+            strong problem-solving skills.
           </p>
           <div className="flex items-start gap-[14px] lg:gap-[20px]">
             <a href="#contact">
               <button className="contact-btn">Contact</button>
             </a>
             <a
-              href="SHARAN_RESUME.pdf"
-              download="SHARAN_RESUME.pdf"
+              href="Rishab_E_CV.pdf"
+              download="Rishab_E_CV.pdf"
               className="contact-btn"
             >
               {`Resume`}
