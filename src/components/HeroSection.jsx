@@ -9,12 +9,11 @@ const HeroSection = () => {
             I'm Rishab <span>Software Developer</span>
           </p>
           <p className="hero-sub-text">
-            I craft responsive web application where technologies meet
-            creativity
+            Passionate software developer with a good foundation in coding and strong problem-solving skills.
           </p>
           <div className="flex items-start gap-[14px] lg:gap-[20px]">
             <a href="#contact">
-              <button className="contact-btn">Contact me!!</button>
+              <button className="contact-btn">Contact</button>
             </a>
             <a
               href="SHARAN_RESUME.pdf"

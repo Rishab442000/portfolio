@@ -965,7 +965,7 @@
     align-items: center;
   }
   .social-links svg:hover path {
-    fill: rgb(15, 14, 14);
+    fill: rgb(248, 241, 241);
     transition: 200ms ease;
   }
   /* navbar styles  */

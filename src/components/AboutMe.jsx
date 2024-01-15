@@ -8,7 +8,7 @@ const AboutMe = () => {
     >
       <div className="aboutMe-div">
         <div className="projects-header flex justify-start items-center ">
-          <span>#</span>about-me{" "}
+          <span>#</span>About-me{" "}
           <svg
             className="ml-[16px] lg:block hidden"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,18 +44,14 @@ const AboutMe = () => {
         <div className="about-box">
           <div className="about-left lg:mt-[23px]">
             <p className="about-text mt-[20px] lg:mt-[27px]">
-              Hello, i’m Rishab!
+              Hello, I'm Rishab!
             </p>
             <p className="about-text mt-[20px] lg:mt-[27px]">
-              I’m a self-taught Developer based Bangalore. I am an aspiring software developer with a strong foundation in coding and a keen interest in learning and contributing to innovative projects. Eager to apply academic knowledge and contribute collaboratively to dynamic development teams.{" "}
-
-            </p>
-            <p className="about-text mt-[20px] lg:mt-[27px]">
-              Transforming my creativity and knowledge into a websites and web
-              application has been my passion for over a year. I have been
-              helping various clients to establish their presence online. I
-              always strive to learn about the newest technologies and
-              frameworks.
+              An aspiring self taught software developer with a good foundation in coding and a keen interest
+              in learning and contributing to innovative projects. Proficient in various programming languages,
+              I'm proficient in creating efficient, scalable, and innovative solutions. A collaborative team player, 
+              I enjoy tackling complex challenges and staying up-to-date with emerging technologies. 
+              Eager to apply my knowledge and contribute collaboratively to dynamic development teams.{" "}
             </p>
           </div>
           <div className="about-right ">

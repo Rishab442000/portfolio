@@ -46,7 +46,7 @@ const Contact = () => {
     >
       <div className="contact-box">
         <div className="projects-header flex justify-start items-center ">
-          <span>#</span>contacts{" "}
+          <span>#</span>Contact{" "}
           <svg
             className="ml-[16px]"
             xmlns="http://www.w3.org/2000/svg"
@@ -136,9 +136,9 @@ const Contact = () => {
             </button>
           </form>
           <div className="support-me mt-[25px] lg:mt-[0px]">
-            <p className="message-text">Message me here</p>
+            <p className="message-text">Contact here</p>
             <a
-              href="https://wa.me/919380393651/?text=Hi Sharan,"
+              href="https://wa.me/917092750400/?text=Hi,Rishab"
               target="_blank"
               className="message-sub-text flex items-center"
             >
@@ -159,7 +159,7 @@ const Contact = () => {
             </a>
             <a
               className="message-sub-text flex items-center lg:mt-[8px]"
-              href="mailto:sharan.kundapur@gmail.com"
+              href="mailto:rishabe17@gmail.com"
             >
               <svg
                 className="mr-[6px] lg:mr-[5px]"

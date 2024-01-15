@@ -4,7 +4,7 @@ const Skills = () => {
   const skillData = [
     {
       id: 0,
-      skill: "HTML",
+      skill: "Python",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ const Skills = () => {
     },
     {
       id: 1,
-      skill: "CSS/ Bootstrap/ tailwind CSS",
+      skill: "HTML",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Skills = () => {
     },
     {
       id: 3,
-      skill: "React",
+      skill: "CSS",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ const Skills = () => {
     },
     {
       id: 4,
-      skill: "Redux",
+      skill: "React",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Skills = () => {
     },
     {
       id: 6,
-      skill: "typeScript",
+      skill: "Java",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Skills = () => {
     },
     {
       id: 7,
-      skill: "Next js",
+      skill: "MuleSoft",
       logo: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
