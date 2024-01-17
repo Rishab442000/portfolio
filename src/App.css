@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Fira Code", monospace;
   scroll-behavior: smooth;
-  background: rgb(75, 85, 88);
+  background: rgb(0, 0, 0);
   scroll-padding: 120px;
 }
 
@@ -51,7 +51,7 @@
 }
 .mobile-anchor {
   text-decoration: none;
-  color: #abb2bf;
+  color: #ffffff;
   font-family: "Fira Code", monospace;
   font-size: 22px;
   font-weight: 400;
@@ -106,7 +106,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #abb2bf;
+  border: 1px solid #dd71fb;
 
   margin-top: 60px;
   color: #fff;
@@ -116,7 +116,7 @@
   padding: 16px;
 }
 .joke-sub-text {
-  border: 1px solid #abb2bf;
+  border: 1px solid #dd71fb;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -250,7 +250,7 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #abb2bf;
+  border: 1px solid #dd71fb;
   padding: 16px;
   height: 200px;
 }
@@ -313,7 +313,7 @@
 }
 .input-feild {
   padding: 8px;
-  border: 1px solid #abb2bf;
+  border: 1px solid #dd71fb;
   color: #abb2bf;
   font-family: "Fira Code", monospace;
   font-size: 16px;
@@ -329,7 +329,7 @@
 }
 .text-feild {
   padding: 8px;
-  border: 1px solid #abb2bf;
+  border: 1px solid #dd71fb;
   color: #abb2bf;
   font-family: "Fira Code", monospace;
   font-size: 16px;
@@ -350,7 +350,7 @@
 }
 
 .support-me {
-  border: 1px solid #abb2bf;
+  border: 1px solid #dd71fb;
   padding: 16px;
   width: 100%;
 }
@@ -560,7 +560,7 @@
     padding: 28px;
   }
   .joke-sub-text {
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -581,7 +581,7 @@
     z-index: 2;
   }
   .deco-box {
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     width: 91px;
     height: 91px;
     margin-left: auto;
@@ -705,7 +705,7 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     padding: 16px;
     height: 200px;
   }
@@ -773,7 +773,7 @@
   }
   .input-feild {
     padding: 8px;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     color: #abb2bf;
     font-family: "Fira Code", monospace;
     font-size: 14px;
@@ -789,7 +789,7 @@
   }
   .text-feild {
     padding: 8px;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     color: #abb2bf;
     font-family: "Fira Code", monospace;
     font-size: 14px;
@@ -810,7 +810,7 @@
   }
 
   .support-me {
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     padding: 16px;
     width: auto;
   }
@@ -918,7 +918,7 @@
     justify-content: start;
     align-items: center;
     gap: 8px;
-    color: #fff;
+    color: #fafafc;
     font-family: "Fira Code", monospace;
     font-size: 16px;
     font-weight: 700;
@@ -934,21 +934,22 @@
     text-decoration: none;
   }
   .nav-bar ul li span {
-    color: #121213;
+    color: #27272a;
     font-family: "Fira Code", monospace;
     font-size: 16px;
     font-weight: 400;
   }
   .nav-bar ul li a {
-    color: #171717;
+    color: #ffffff;
     font-family: "Fira Code", monospace;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
     transition: 300ms ease-out;
   }
-  .nav-bar ul li a:hover {
-    color: white;
+  .nav-bar ul li a:hover,
+  .nav-bar ul li span:hover {
+    color: #ffff00;
   }
   .social-links {
     display: block;
@@ -984,7 +985,7 @@
     margin: 74px 0px 32px 0px;
   }
   .hero-text span {
-    color: #121212;
+    color: #dd71fb;
     font-family: "Fira Code", monospace;
     font-size: 32px;
     font-weight: 600;
@@ -998,8 +999,8 @@
     margin-bottom: 24px;
   }
   .contact-btn {
-    border: 1px solid #120f13;
-    color: #fff;
+    border: 1px solid #dd71fb;
+    color: #fdfbfe;
     font-family: "Fira Code", monospace;
     font-size: 16px;
     font-weight: 500;
@@ -1008,14 +1009,14 @@
     margin-bottom: 122px;
   }
   .contact-btn:hover {
-    background: rgba(199, 120, 221, 0.2);
+    background: rgba(255, 255, 255, 0.2);
   }
   .joke-section {
     margin: 0px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
 
     margin-top: 120px;
     color: #fff;
@@ -1025,7 +1026,7 @@
     padding: 32px;
   }
   .joke-sub-text {
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -1177,7 +1178,7 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     padding: 16px;
     height: 200px;
   }
@@ -1206,7 +1207,7 @@
     fill: #1172b8;
   }
   .svgs-box:hover .logo-div7 svg path {
-    fill: rgb(255, 255, 255);
+    fill: #00a1df;
   }
   /* skills style  */
 
@@ -1271,7 +1272,7 @@
   }
   .input-feild {
     padding: 8px;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     color: #abb2bf;
     font-family: "Fira Code", monospace;
     font-size: 16px;
@@ -1287,7 +1288,7 @@
   }
   .text-feild {
     padding: 8px;
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     color: #abb2bf;
     font-family: "Fira Code", monospace;
     font-size: 16px;
@@ -1310,7 +1311,7 @@
     background: rgba(199, 120, 221, 0.2);
   }
   .support-me {
-    border: 1px solid #abb2bf;
+    border: 1px solid #dd71fb;
     padding: 16px;
     width: auto;
   }
