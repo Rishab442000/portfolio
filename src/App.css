@@ -887,13 +887,13 @@
     transition: 300ms ease-in;
     cursor: pointer;
   }
-  .footer-media-svg.Git svg:hover path {
+  .footer-media-svg .Git svg:hover path {
     fill: white;
   }
-  .footer-media-svg.WhatsApp svg:hover path {
+  .footer-media-svg .WhatsApp svg:hover path {
     fill: rgb(0, 255, 72);
   }
-  .footer-media-svg.LinkedIn svg:hover path {
+  .footer-media-svg .LinkedIn svg:hover path {
     fill: rgb(32, 67, 241);
   }
   .copyRight {
