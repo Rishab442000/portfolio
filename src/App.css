@@ -498,8 +498,16 @@
     justify-content: center;
     align-items: center;
   }
-  .social-links svg:hover path {
+  .social-links.git svg:hover path {
     fill: white;
+    transition: 200ms ease;
+  }
+  .social-links .WhatsApp svg:hover path {
+    fill: rgb(0, 255, 72);
+    transition: 200ms ease;
+  }
+  .social-links .LinkedIn svg:hover path {
+    fill: rgb(32, 67, 241);
     transition: 200ms ease;
   }
   /* navbar styles  */
@@ -879,8 +887,14 @@
     transition: 300ms ease-in;
     cursor: pointer;
   }
-  .footer-media-svg svg:hover path {
+  .footer-media-svg.Git svg:hover path {
     fill: white;
+  }
+  .footer-media-svg.WhatsApp svg:hover path {
+    fill: rgb(0, 255, 72);
+  }
+  .footer-media-svg.LinkedIn svg:hover path {
+    fill: rgb(32, 67, 241);
   }
   .copyRight {
     color: #abb2bf;
@@ -962,8 +976,16 @@
     justify-content: center;
     align-items: center;
   }
-  .social-links svg:hover path {
-    fill: rgb(248, 241, 241);
+  .social-links .git svg:hover path {
+    fill: rgb(253, 253, 253);
+    transition: 200ms ease;
+  }
+  .social-links .WhatsApp svg:hover path {
+    fill: rgb(0, 255, 72);
+    transition: 200ms ease;
+  }
+  .social-links .LinkedIn svg:hover path {
+    fill: rgb(32, 67, 241);
     transition: 200ms ease;
   }
   /* navbar styles  */
@@ -1388,8 +1410,14 @@
     transition: 300ms ease-in;
     cursor: pointer;
   }
-  .footer-media-svg svg:hover path {
+  .footer-media-svg .Git svg:hover path {
     fill: white;
+  }
+  .footer-media-svg .WhatsApp svg:hover path {
+    fill: rgb(0, 255, 72);
+  }
+  .footer-media-svg .LinkedIn svg:hover path {
+    fill: rgb(32, 67, 241);
   }
   .copyRight {
     color: #abb2bf;

@@ -37,7 +37,11 @@ const Navbar = () => {
           </svg>
         </div>
         <div className="lg:mt-[8px] flex flex-col items-center justify-start lg:gap-y-[8px]">
-          <a target="_blank" href="https://github.com/dashboard">
+          <a
+            className="git"
+            target="_blank"
+            href="https://github.com/dashboard"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -54,7 +58,7 @@ const Navbar = () => {
           <a
             href="https://wa.me/917092750400/?text=Hi,Rishab"
             target="_blank"
-            className="message-sub-text flex items-center"
+            className="message-sub-text flex items-center WhatsApp"
           >
             <svg
               className="lg:mr-[5px]"
@@ -71,6 +75,7 @@ const Navbar = () => {
             </svg>
           </a>
           <a
+            className="LinkedIn"
             target="_blank"
             href="https://www.linkedin.com/in/rishab-e-519282196/"
           >

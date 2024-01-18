@@ -18,7 +18,7 @@ const HeroSection = () => {
             </a>
             <a
               href="Rishab_E_CV.pdf"
-              download="Rishab_E_CV.pdf"
+              download="Rishab_E_Resume.pdf"
               className="contact-btn"
             >
               {`Resume`}
@@ -99,8 +99,8 @@ const HeroSection = () => {
             ></path>
           </svg>
         </div>
-        With great power comes great electricity bill
-        <div className="joke-sub-text">- Dr. Leo</div>
+        It's not about ideas, It's about making ideas happen💡
+        <div className="joke-sub-text">- Scott Belsky</div>
       </div>
 
       <div className="deco-box hidden lg:block"></div>
