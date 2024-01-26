@@ -2,8 +2,10 @@ import React, { useRef } from "react";
 import { useFormik } from "formik";
 import { validationSchemaForm } from "../schema/validation";
 import emailjs from "@emailjs/browser";
+import axios from "axios";
 
 const Contact = () => {
+  const baseUrl = "http://localhost:9000";
   // const form = useRef();
   const formik = useFormik({
     initialValues: {
@@ -13,30 +15,29 @@ const Contact = () => {
       describe: "",
     },
     validationSchema: validationSchemaForm,
-    onSubmit: (values) => {
-      console.log("jjj");
-      emailjs
-        .sendForm(
-          "name",
-          "email",
-          "organ",
-          "describe",
+    onSubmit: async (values) => {
+      let dataSend = {
+        name: formik.values.name,
+        email: formik.values.email,
+        describe: formik.values.describe,
+        organ: formik.values.organ,
+      };
 
-          "service_xebupu4",
-          "template_9gv1s1p",
-          "HnFYHEBKK1HyQAEYvuKBI"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            formik.resetForm({});
-
-            alert("congragulation");
-          },
-          (error) => {
-            console.log(error.text);
+      const res = await fetch(`${baseUrl}/sendEmail`, {
+        method: "POST",
+        body: JSON.stringify(dataSend),
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      })
+        // HANDLING ERRORS
+        .then((res) => {
+          console.log(res);
+          if (res.status > 199 && res.status < 300) {
+            alert("Send Successfully !");
           }
-        );
+        });
     },
   });
   return (

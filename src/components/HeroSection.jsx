@@ -17,7 +17,7 @@ const HeroSection = () => {
               <button className="contact-btn">Contact</button>
             </a>
             <a
-              href="Rishab_E_CV.pdf"
+              href="Rishab_E_Resume.pdf"
               download="Rishab_E_Resume.pdf"
               className="contact-btn"
             >
